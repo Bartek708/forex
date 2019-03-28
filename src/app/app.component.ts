@@ -36,7 +36,7 @@ export class AppComponent {
   }
 
   refreshData(): void {
-  	this.http.get<Exchange[]>("https://forex.1forge.com/1.0.3/quotes?&api_key=9bW5urPmwxXJnFB2hxzyfmi7JX9kuIUN")
+  	this.http.get<Exchange[]>("https://forex.1forge.com/1.0.3/quotes?&api_key=Ws48EoHLFo0agbp1EeIFYYTdjgKMKLU2")
   	.subscribe(
   		data => {
   		this.results = data;
